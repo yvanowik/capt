@@ -10,8 +10,14 @@ No caso do Capt, as dependências não são instaladas automaticamente, porque o
 
 É bem possível que todas essas bibliotecas já estejam instaladas na sua distribuição. Porém, se o Capt não rodar na primeira tentativa, pode ser pela falta de alguma delas.
 
+# Comandos
 ### Para instalar bibliotecas necessárias
 
 `sudo apt update`
 
 `sudo apt install libqt5widgets5t64 libqt5gui5t64 libqt5core5t64 libstdc++6 libgcc-s1 libc6 libc6 libgl1 libpng16-16t64 zlib1g libharfbuzz0b libmd4c0 libdouble-conversion3 libicu74 libicu74 libpcre2-16-0 libzstd1 libglib2.0-0t64 libglvnd0 libglx0 libfreetype6 libgraphite2-3 libicu74 libpcre2-8-0 libx11-6 libbz2-1.0 libbrotli1 libxcb1 libbrotli1 libxau6 libxdmcp6 libbsd0 libmd0`
+
+### Para instalar temas
+`sudo apt update`
+
+`sudo apt install kde-style-qtcurve-qt5 qt5-style-kvantum qt5-style-kvantum-l10n qt5-style-kvantum-themes qt5-style-plugin-plastique qt5-style-plugin-motif qt5-style-plugin-cleanlooks`
