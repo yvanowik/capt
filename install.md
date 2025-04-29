@@ -36,3 +36,42 @@ De outras vezes, basta:
 `./capt`
  
 Observação: é importante manter a pasta `xpm` (a pasta dos ícones) na mesma pasta do executável; sem ela, os ícones não aparecem na interface.
+
+# Integração
+### Para integrar ao sistema
+
+É possível integrar o Capt ao sistema. Para isto, basta copiar a pasta do aplicativo para a pasta de sistema `/opt` e criar um link simbólico para o executável na pasta de aplicativos de sistema `/usr/bin`. Algumas dessas operações exigem permissões de administrador.
+
+Para isso, no terminal, use os comandos a seguir:
+`cd /pasta/do/capt`
+`sudo cp -r Capt2.5 /opt/Capt2.5`
+`sudo ln -s /opt/Capt2.5/capt /usr/bin/capt`
+`cd /opt/Capt2.5`
+`capt`
+
+Observe que, para abrir o programa a partir desta alteração, não é mais necessário usar o `./` antes do comando. Porém, chamar o programa de outra pasta que não a do aplicativo, pode causar dificuldade para o programa encontrar os ícones. Para evitar isso, o programa deve ser chamado sempre dentro da pasta onde também está a pasta `xpm` dos ícones:
+`cd /opt/Capt2.5`
+`capt`
+
+### Para integrar ao menu do ambiente gráfico
+
+Integrar o programa ao desktop (Ubuntu 24.04/Gnome) evita o perrengue de não abrir os ícones da interface. Para integrar ao desktop, crie um arquivo de texto puro com o nome `capt.desktop` com seguinte conteúdo:
+
+```
+[Desktop Entry]
+Name=Capt 2.5
+Comment=Coleta Assistida de Padrões de Texto
+Exec=capt
+Path=/opt/Capt2.5
+Icon=/opt/Capt2.5/xpm/capt_mainwindow.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=KDE;Qt;Science;
+Keywords=editor;notes;note-taking;
+```
+
+Salve o arquivo em `~/.local/share/applications/capt.desktop`, depois faça uma cópia dele com o seguinte comando:
+`sudo cp ~/.local/share/applications/capt.desktop /usr/share/applications`
+
+Pronto, agora é possível ver do que o **Capt 2.5** capaz!
