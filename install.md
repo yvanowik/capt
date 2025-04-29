@@ -21,3 +21,18 @@ No caso do Capt, as dependências não são instaladas automaticamente, porque o
 `sudo apt update`
 
 `sudo apt install kde-style-qtcurve-qt5 qt5-style-kvantum qt5-style-kvantum-l10n qt5-style-kvantum-themes qt5-style-plugin-plastique qt5-style-plugin-motif qt5-style-plugin-cleanlooks`
+
+### Para o primeiro uso
+
+No navegador, basta clicar com o botão direito do mouse, selecionar propriedades, abrir a aba permissões e marcar o item `executar como programa`. Então é possível clicar duas vezes ou clicar com o botão direito e selecionar `executar` no menu.
+
+Ou no terminal, posicionar-se na pasta do aplicativo e executar o comando de permissões:
+`cd /pasta/do/capt`
+`sudo chmod +x capt`
+`./capt`
+
+De outras vezes, basta:
+`cd /pasta/do/capt`
+`./capt`
+ 
+Observação: é importante manter a pasta `xpm` (a pasta dos ícones) na mesma pasta do executável; sem ela, os ícones não aparecem na interface.
