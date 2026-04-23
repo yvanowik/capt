@@ -2,7 +2,7 @@
 ### Nome
 Coleta Assistida de Padrões de Texto
 ### Versão atual
-Capt 2.6.4 de 15 de abril de 2026 (ver **Releases**)
+Capt 2.6.4 de 23 de abril de 2026 (ver **Releases**)
 ### Primeira versão pública
 Capt 2.5.4 de 07 de abril de 2025
 ### Autor
