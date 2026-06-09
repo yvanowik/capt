@@ -2,13 +2,13 @@
 ### Nome
 Coleta Assistida de Padrões de Texto
 ### Versão atual
-Capt 2.6.5 de 26 de maio de 2026 (ver **Releases**)
+Capt 2.6.6 de 8 de junho de 2026 (ver **Releases**)
 ### Primeira versão pública
 Capt 2.5.4 de 07 de abril de 2025
 ### Autor
 Yvanowik Dantas Valério
 ### Citação (publicação acadêmica)
-VALÉRIO, Yvanowik Dantas. Capt: coleta assistida de padrões de texto. Aplicativo Versão 2.6.5. Fortaleza: UFC-CH-DLV. 26/05/2026. Disponível em: https://github.com/yvanowik/capt. Acesso em: 26/05/2026.
+VALÉRIO, Yvanowik Dantas. Capt: coleta assistida de padrões de texto. Aplicativo Versão 2.6.6. Fortaleza: UFC-CH-DLV. 08/06/2026. Disponível em: https://github.com/yvanowik/capt. Acesso em: 08/06/2026.
 ## Descrição breve
 O Capt é um software livre de código aberto para o processamento assistido de corpus linguístico, com recursos de edição em múltiplos textos; análise de volume, legibilidade e similaridade; coleta e filtro de ocorrências; contagem, concordância e coocorrência; seleção de amostras e produção de subcorpora.
 
